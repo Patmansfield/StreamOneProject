@@ -1,0 +1,36 @@
+
+<div ng-app="validationApp" ng-controller="mainController">
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">  
+            <div class="col-sm-6 col-sm-offset-3">
+                <!-- FORM ============ -->
+            <div class="intro">
+            <h2 class="text-center">Online Enquiry Form</h2></div>
+                <form name="userForm" ng-submit="submitForm()" novalidate>
+
+                    <!-- NAME -->
+                    <div class="form-group" ng-class="{ 'has-error' : userForm.name.$invalid && !userForm.name.$pristine }">
+                        <label>Name</label>
+                        <input type="text" name="name" class="form-control" ng-model="user.name" required>
+                        <p ng-show="userForm.name.$invalid && !userForm.name.$pristine" class="help-block">Your name is required.</p>
+                    </div>
+                    
+                    <!-- EMAIL -->
+                    <div class="form-group" ng-class="{ 'has-error' : userForm.email.$invalid && !userForm.email.$pristine }">
+                        <label>Email</label>
+                        <input type="email" name="email" class="form-control" ng-model="user.email">
+                        <p ng-show="userForm.email.$invalid && !userForm.email.$pristine" class="help-block">Enter a valid email.</p>
+                        <p ng-show="userForm.name.$invalid && !userForm.name.$pristine" class="help-block">Your Email is required.</p>
+                    </div>
+
+                    <!-- ENQUIRY -->
+                    <div class="form-group" ng-class="{ 'has-error' : userForm.username.$invalid && !userForm.username.$pristine }">
+                        <label>Enquiry</label>
+                        <textarea ng-model="formData.inputMessage" class="form-control" rows="4" name="inputMessage" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" ng-disabled="userForm.$invalid">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
