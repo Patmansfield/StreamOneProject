@@ -1,6 +1,12 @@
 .no-padding {
   padding-left: 0;
   padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.BannerMinimum {
+  padding-top: 60px;
 }
 
 .navigation-clean {
@@ -12,6 +18,10 @@
   box-shadow:none;
   border:none;
   margin-bottom:0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:100;  
 }
 
 @media (max-width:767px) {
