@@ -43,17 +43,3 @@ angular.module('StreamOneProject').config(function($routeProvider, $locationProv
   	requireBase: false
 	});
 });
-
-
-
-
-/*, 'angular-storage', 'RouteControllers', 'UserService' -  $locationProvider.html5Mode(true); $locationProvider '$locationProvider'*/
-
-/* var app = angular.module('StreamOneProject', ['ngRoute']);
-
-app.config(function($routeProvider) {
-
-	$routeProvider.when('/', {
-		templateUrl : 'templates/home.html'
-	})
-}); */  
