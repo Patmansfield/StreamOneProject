@@ -1,4 +1,4 @@
-#Stream One Project
+# Stream One Project
 
 ## Overview
 
@@ -12,7 +12,7 @@ A website constructed for the band Coldplay, detailing current music and videos 
  
 ### How does it work?
 
-The app is a Single Page Application using the AngularJS framework.  The application also uses the Bootstrap front-end framework and the Javascript library jQuery.  
+The app is a Single Page Application using the AngularJS framework as well as Bootstrap front-end framework.
 
 ## Features
  
