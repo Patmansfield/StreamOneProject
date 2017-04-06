@@ -1,4 +1,4 @@
-# Stream One Project - Gitignore
+# Stream One Project
 
 ## Overview
 
