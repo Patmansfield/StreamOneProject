@@ -2,44 +2,38 @@ var app = angular.module('StreamOneProject', ['ngRoute', 'RouteControllers', 'Pr
 
 angular.module('StreamOneProject').config(function($routeProvider, $locationProvider) {
 
-	$routeProvider
-	.when('/', {
-		templateUrl : 'templates/home.html', 
-		controller: 'HomeController'
-	})
+    $routeProvider
+    .when('/', {
+        templateUrl : 'templates/home.html', 
+    })
 
-	.when('/templates/music', {
-		templateUrl: 'templates/music.html',
-		controller: 'MusicController'
-	})
+    .when('/templates/music', {
+        templateUrl: 'templates/music.html',
+    })
 
-	.when('/templates/video', {
-		templateUrl: 'templates/video.html',
-		controller: 'VideoController'
-	})
+    .when('/templates/video', {
+        templateUrl: 'templates/video.html',
+    })
 
-	.when('/templates/newrelease', {
-		templateUrl: 'templates/newrelease.html',
-		controller: 'NewreleaseController'
-	})
+    .when('/templates/newrelease', {
+        templateUrl: 'templates/newrelease.html',
+    })
 
-	.when('/templates/chart', {
-		templateUrl: 'templates/chart.html',
-		controller: 'ChartController'
-	})
+    .when('/templates/chart', {
+        templateUrl: 'templates/chart.html',
+    })
 
-	.when('/templates/form', {
-		templateUrl: 'templates/form.html',
-		controller: 'mainController'
-	})
+    .when('/templates/form', {
+        templateUrl: 'templates/form.html',
+        controller: 'mainController'
+    })
 
-	.when('/templates/privacypolicy', {
-		templateUrl: 'templates/privacypolicy.html',
-		controller: 'PrivacyPolicyController'
-	})
+    .when('/templates/privacypolicy', {
+        templateUrl: 'templates/privacypolicy.html',
+    })
 
-	$locationProvider.html5Mode({
-  	enabled: true,
-  	requireBase: false
-	});
+    $locationProvider.html5Mode({
+    enabled: true,
+    requireBase: false
+    });
 });
