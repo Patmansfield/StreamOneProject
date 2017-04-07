@@ -15,7 +15,13 @@ A website constructed for the band Coldplay, detailing current music and videos 
 The app is a Single Page Application using the AngularJS framework as well as Bootstrap front-end framework.
 
 ## Features
- 
+
+The single page application I used here allows fast and easy movement between pages. In terms of functionality I modified the navbar to make it static and always placed at the top of the page to make returning to the home page quick and easy and without any scrolling. The banner on the home page was modified to remove a large section when navigating to another page, this made using and viewing the page more stream lined as it was no longer required to scroll past the entire picture in order to view the new content of the page. I used some pre constructed code for Twitter Bootsrap which I have modified for the purpose of my website. I have modified the footer images to include different Ionicon images as well as adding an additional CDN.
+
+##Testing and Deployment
+
+I have incorporated a testing tool using Jasmine, I constructed my spec.js file to test the routing when navigating through out the site. Once the web site was completed and had been hosted over a local server via http server for initial viewing I then created a repository in GitHub pages and push the relevant files to the repository. Once the necessary paths had been altered the site was then deployed for viewing by gh-pages.
+
 ## Tech Used
 
 ### Some the tech used includes:
