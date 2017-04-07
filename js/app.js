@@ -9,22 +9,18 @@ angular.module('StreamOneProject').config(function($routeProvider, $locationProv
 
 	.when('/templates/music', {
 		templateUrl: 'templates/music.html',
-		controller: 'MusicController'
 	})
 
 	.when('/templates/video', {
 		templateUrl: 'templates/video.html',
-		controller: 'VideoController'
 	})
 
 	.when('/templates/newrelease', {
 		templateUrl: 'templates/newrelease.html',
-		controller: 'NewreleaseController'
 	})
 
 	.when('/templates/chart', {
 		templateUrl: 'templates/chart.html',
-		controller: 'ChartController'
 	})
 
 	.when('/templates/form', {
@@ -34,7 +30,6 @@ angular.module('StreamOneProject').config(function($routeProvider, $locationProv
 
 	.when('/templates/privacypolicy', {
 		templateUrl: 'templates/privacypolicy.html',
-		controller: 'PrivacyPolicyController'
 	})
 
 	$locationProvider.html5Mode({
@@ -43,4 +38,3 @@ angular.module('StreamOneProject').config(function($routeProvider, $locationProv
 	});
 });
 
-/*controller: 'HomeController'*/

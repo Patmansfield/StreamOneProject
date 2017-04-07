@@ -1,25 +1,5 @@
 angular.module('RouteControllers', [])
 
-    .controller('MusicController', function($scope) {
-
-    })
-
-    .controller('VideoController', function($scope) {
-
-    })
-
-    .controller('ChartController', function($scope) {
-
-    })
-
-    .controller('NewreleaseController', function($scope) {
-
-    })
-
-    .controller('PrivacyPolicyController', function($scope) {
-
-    })
-
 	.controller('mainController', function($scope) {
          
         $scope.submitForm = function() {
@@ -29,11 +9,3 @@ angular.module('RouteControllers', [])
             }
         };
     });
-
-
-/*.controller('HomeController', function($scope) {
-        
-    })*/
-
-
-
