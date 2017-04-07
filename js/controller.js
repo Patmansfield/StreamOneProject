@@ -1,7 +1,4 @@
 angular.module('RouteControllers', [])
-    .controller('HomeController', function($scope) {
-        
-    })
 
     .controller('MusicController', function($scope) {
 
@@ -34,7 +31,9 @@ angular.module('RouteControllers', [])
     });
 
 
-
+/*.controller('HomeController', function($scope) {
+        
+    })*/
 
 
 

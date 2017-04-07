@@ -5,7 +5,6 @@ angular.module('StreamOneProject').config(function($routeProvider, $locationProv
 	$routeProvider
 	.when('/', {
 		templateUrl : 'templates/home.html', 
-		controller: 'HomeController'
 	})
 
 	.when('/templates/music', {
@@ -43,3 +42,5 @@ angular.module('StreamOneProject').config(function($routeProvider, $locationProv
   	requireBase: false
 	});
 });
+
+/*controller: 'HomeController'*/
